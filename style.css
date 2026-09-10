@@ -38,7 +38,15 @@
     --transition: 220ms ease;
 }
 
+a, a:visited {
+    text-decoration: none; /* Optional: removes the underline */
+    color: black; /* Optional: sets the link color */
+}
 
+.dark a,
+.dark a:visited { /* Optional: sets the link color in dark mode */
+    color: white;
+}
 /* =========================
    DARK THEME
    ========================= */
